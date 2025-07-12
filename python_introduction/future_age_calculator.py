@@ -1,8 +1,5 @@
-age = input('How old ar you?')
-currentYear = 2023
-futureYear = 2050
+currentAge = int(input('How old are you? '))
 
-additionalYears = futureYear - currentYear
-totalYears = additionalYears + age
+age = currentAge + (2050 - 2023)
 
-print (f'In {futureYear}, you will be {age} years old')
+print (f'In 2050, you will be {age} years old')
